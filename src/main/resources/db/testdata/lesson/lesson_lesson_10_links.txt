@@ -1,0 +1,2 @@
+Przeciążanie i this;https://javastart.pl/kurs/java/java-podstawy-temat-8-przeciazanie-metod/lekcja/java-przeciazanie-metod-i-slowo-this
+Specyfikatory dostępu;https://javastart.pl/kurs/java/java-podstawy-temat-10-specyfikatory-dostepu/lekcja/java-specyfikatory-dostepu-i-pakiety
