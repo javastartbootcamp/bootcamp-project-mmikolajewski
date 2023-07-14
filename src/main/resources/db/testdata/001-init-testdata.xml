@@ -282,6 +282,101 @@
             <column name="deadline_hour" value="23:59" />
         </insert>
 
+        <insert tableName="lesson">
+            <column name="id">8</column>
+            <column name="training_id">1</column>
+            <column name="number">8</column>
+            <column name="title">Typy danych, zmienne, klasy, obiekty</column>
+            <column name="lesson_date">2019-01-28</column>
+            <column name="link_to_slack">https://jjd19-1.slack.com/messages/CF99B07HV</column>
+            <column name="video_links" value=""/>
+            <column name="lesson_links" valueClobFile="./lesson/lesson_lesson_8_links.txt"/>
+            <column name="visible" valueBoolean="true"/>
+        </insert>
+        <insert tableName="task">
+            <column name="id" value="22"/>
+            <column name="name" value="Naprawa programu(filmy)"/>
+            <column name="sort_order" value="100"/>
+            <column name="tags" value="java naprawa programu"/>
+            <column name="content" valueClobFile="./task/task_5.html"/>
+            <column name="points" value="1"/>
+            <column name="solution_video" value=""/>
+            <column name="solution_source_url" value="http://git.javastart.pl/rozwiazania/oop_movie_fix-140419522"/>
+        </insert>
+
+        <insert tableName="lesson_task">
+            <column name="id" value="5"/>
+            <column name="lesson_id" value="8"/>
+            <column name="task_id" value="22"/>
+            <column name="number" value="1"/>
+            <column name="is_mandatory" valueBoolean="true"/>
+            <column name="deadline" valueDate="2021-01-07 23:59:00"/>
+        </insert>
+
+
+        <insert tableName="lesson">
+            <column name="id">9</column>
+            <column name="training_id">1</column>
+            <column name="number">9</column>
+            <column name="title">Konstruktory i metody</column>
+            <column name="lesson_date">2019-02-05</column>
+            <column name="link_to_slack">https://jjd19-1.slack.com/messages/CF99B07HV</column>
+            <column name="video_links" value=""/>
+            <column name="lesson_links" valueClobFile="./lesson/lesson_lesson_9_links.txt"/>
+            <column name="visible" valueBoolean="true"/>
+        </insert>
+
+        <insert tableName="task">
+            <column name="id" value="23"/>
+            <column name="name" value="Tworzenie klas i obiektów z Twojego otoczenia"/>
+            <column name="sort_order" value="100"/>
+            <column name="tags" value="java class objects"/>
+            <column name="content" valueClobFile="./task/task_6.html"/>
+            <column name="points" value="1"/>
+            <column name="solution_video" value=""/>
+            <column name="solution_source_url" value="http://git.javastart.pl/rozwiazania/objects_around-241219584"/>
+        </insert>
+        <insert tableName="lesson_task">
+            <column name="id" value="6"/>
+            <column name="lesson_id" value="9"/>
+            <column name="task_id" value="23"/>
+            <column name="number" value="1"/>
+            <column name="is_mandatory" valueBoolean="true"/>
+            <column name="deadline" valueDate="2021-02-05 23:59:00"/>
+        </insert>
+
+        <insert tableName="lesson">
+            <column name="id">10</column>
+            <column name="training_id">1</column>
+            <column name="number">10</column>
+            <column name="title">Słowo kluczowe "this", przeciążanie metod, pakiety, specyfikatory</column>
+            <column name="lesson_date">2019-02-12</column>
+            <column name="link_to_slack">https://jjd19-1.slack.com/messages/CF99B07HV</column>
+            <column name="video_links" value=""/>
+            <column name="lesson_links" valueClobFile="./lesson/lesson_lesson_10_links.txt"/>
+            <column name="visible" valueBoolean="true"/>
+        </insert>
+
+        <insert tableName="task">
+            <column name="id" value="24"/>
+            <column name="name" value="Telewizor on/off"/>
+            <column name="sort_order" value="100"/>
+            <column name="tags" value="java tv on/off"/>
+            <column name="content" valueClobFile="./task/task_7.html"/>
+            <column name="points" value="1"/>
+            <column name="solution_video" value=""/>
+            <column name="solution_source_url" value="http://git.javastart.pl/rozwiazania/tv_on_off-2558629146"/>
+        </insert>
+
+        <insert tableName="lesson_task">
+            <column name="id" value="7"/>
+            <column name="lesson_id" value="10"/>
+            <column name="task_id" value="24"/>
+            <column name="number" value="1"/>
+            <column name="is_mandatory" valueBoolean="true"/>
+            <column name="deadline" valueDate="2021-02-12 23:59:00"/>
+        </insert>
+
     </changeSet>
 
 

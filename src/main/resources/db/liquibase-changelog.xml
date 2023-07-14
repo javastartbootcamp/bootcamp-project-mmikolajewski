@@ -38,7 +38,6 @@
 
     <!-- testdata -->
     <include file="testdata/001-init-testdata.xml" relativeToChangelogFile="true"/>
-    <include file="testdata/002-lesson-testdata.xml" relativeToChangelogFile="true"/>
 
     <!-- proddata -->
     <include file="proddata/001-init-proddata.xml" relativeToChangelogFile="true"/>
