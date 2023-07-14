@@ -10,7 +10,7 @@
          aria-controls="basicExampleNav" aria-expanded="false"
          th:if="${nextTrainingId != null}">
         <a th:href="|/szkolenie/${nextTrainingUrl}/${nextTrainingId}|">
-            <button class="btn btn-primary">
+            <button class="btn btn-primary" sec:authorize="${!isAuthenticated()}" >
                 Zapisz się
             </button>
         </a>
