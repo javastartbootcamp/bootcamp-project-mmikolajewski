@@ -244,7 +244,7 @@
         <insert tableName="topic">
             <column name="id">1</column>
             <column name="title">Wprowadzenie</column>
-            <column name="sort_order" value="100"/>
+            <column name="sort_order" value="700"/>
             <column name="video_links" valueClobFile="./topic/topic_video_links_1.txt"/>
             <column name="lesson_links" valueClobFile="./topic/topic_lesson_links_1.txt"/>
         </insert>
@@ -282,6 +282,12 @@
             <column name="deadline_hour" value="23:59" />
         </insert>
 
+        <insert tableName="topic">
+            <column name="id">8</column>
+            <column name="title">Typy danych, zmienne, klasy, obiekty</column>
+            <column name="sort_order" value="100"/>
+        </insert>
+
         <insert tableName="lesson">
             <column name="id">8</column>
             <column name="training_id">1</column>
@@ -311,6 +317,12 @@
             <column name="number" value="1"/>
             <column name="is_mandatory" valueBoolean="true"/>
             <column name="deadline" valueDate="2021-01-07 23:59:00"/>
+        </insert>
+
+        <insert tableName="topic">
+            <column name="id">9</column>
+            <column name="title">Konstruktory i metody</column>
+            <column name="sort_order" value="100"/>
         </insert>
 
 
@@ -345,6 +357,12 @@
             <column name="deadline" valueDate="2021-02-05 23:59:00"/>
         </insert>
 
+        <insert tableName="topic">
+            <column name="id">10</column>
+            <column name="title">Słowo kluczowe "this", przeciążanie metod, pakiety, specyfikatory</column>
+            <column name="sort_order" value="100"/>
+        </insert>
+
         <insert tableName="lesson">
             <column name="id">10</column>
             <column name="training_id">1</column>
@@ -354,7 +372,7 @@
             <column name="link_to_slack">https://jjd19-1.slack.com/messages/CF99B07HV</column>
             <column name="video_links" value=""/>
             <column name="lesson_links" valueClobFile="./lesson/lesson_lesson_10_links.txt"/>
-            <column name="visible" valueBoolean="true"/>
+            <column name="visible" valueBoolean="false"/>
         </insert>
 
         <insert tableName="task">
