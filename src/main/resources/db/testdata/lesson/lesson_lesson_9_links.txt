@@ -1,0 +1,2 @@
+Konstruktory;https://javastart.pl/kurs/java-podstawy/java-podstawy-temat-7-metody-i-konstruktory/lekcja/java-konstruktory
+Agregacja;https://javastart.pl/kurs/java-podstawy/java-kompozycja/lekcja/java-kompozycja

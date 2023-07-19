@@ -1,0 +1,4 @@
+Typy danych;https://javastart.pl/kurs/java-podstawy/java-podstawy-temat-3-typy-danych/lekcja/java-podstawy-typy-danych
+Zmienne;https://javastart.pl/kurs/java-podstawy/java-podstawy-temat-4-zmienne/lekcja/java-podstawy-zmienne
+Operacje na zmiennych;https://javastart.pl/kurs/java-podstawy/java-podstawy-temat-5-operacje-na-zmiennych/lekcja/java-podstawy-operacje-na-zmiennych-i-konwersje-typ%C3%B3w
+Zmienne;https://javastart.pl/kurs/java/java-podstawy-temat-6-klasy-i-obiekty/lekcja/java-klasy-i-obiekty
