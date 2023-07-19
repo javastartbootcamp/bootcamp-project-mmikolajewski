@@ -82,6 +82,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         if (environment.acceptsProfiles(Profiles.of("dev"))) {
             http.headers().frameOptions().disable();
         }
+        if (environment.acceptsProfiles(Profiles.of("prod"))) {
+            http.headers().frameOptions().sameOrigin();
+        }
     }
 
     @Bean
